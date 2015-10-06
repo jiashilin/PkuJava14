@@ -1,7 +1,7 @@
 public class Solution {
     public List<Integer> getRow(int rowIndex) {
         List<Integer> relist=new ArrayList<Integer>(rowIndex);
-		  if(rowIndex<=0)
+		  if(rowIndex<0)
 	        	return relist;
 		  
 		  for(int i=0;i<=rowIndex;i++){
