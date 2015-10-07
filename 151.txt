@@ -1,0 +1,54 @@
+public class Solution {
+    public String reverseWords(String s) {
+        //基本思路就是检测出每一个单词然后倒着排列
+        //算法基于String和StringBuilder
+        //参考《Java语言程序设计 基础篇》一书
+        
+        //预处理
+        //首先将字符串首尾多余的空格去掉
+        int head = 0;
+        //int tail = s.length();
+        int tail = s.length() - 1;
+        
+        //while(head <= tail && s.charAt(head) == ' ')
+        //head = head + 1;
+        while(head <= tail && s.charAt(head) == ' '){
+            head = head + 1;
+        }
+        
+        //while(head <= tail && s.charAt(tail) == ' ')
+        //tail = tail - 1;
+        while(head <= tail && s.charAt(tail) == ' '){
+            tail = tail - 1;
+        }
+        
+        //if(head > tail) return ' ';//表示字符串全为空格
+        if (head > tail) return "";
+        
+        /*接下来利用两个StringBuilder s1和temp
+        首先判断首序号是否小于尾序号，是则创建temp，然后进入检测字母的循环
+        从字符串最后往前检索字母，非空格则插入到temp中
+        检测到空格则退出第一个循环，用StringBuilder自带函数reverse颠倒temp
+        然后将temp检测出来的单词插入到s1中
+        所以s1一直存在，而temp每进入一次while循环则“刷新”一次
+        */
+        StringBuilder s1 = new StringBuilder();
+        while(head <= tail){
+            StringBuilder temp = new StringBuilder();
+            while(head <= tail && s.charAt(tail) != ' '){
+            temp.append(s.charAt(tail));
+            tail = tail - 1;
+            }
+        temp.reverse();
+        s1.append(temp);
+        s1.append(' ');
+        while(head <= tail && s.charAt(tail) == ' '){
+            tail = tail - 1;
+            }
+        }
+        //s = subsrting(0, s1.length()).toString();
+        //s = substring(0, s1.length()).toString();
+        s1.deleteCharAt(s1.length()-1);
+        return s1.toString();
+    }
+}
