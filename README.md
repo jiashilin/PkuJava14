@@ -1,7 +1,8 @@
 ﻿# PkuJava14
 <html>
   <p>贾世琳 1501210924
-   <p> 第三次作业提交，位于ThirdHomework文件夹
+  <p>五子棋游戏位于FiveChess文件夹
+  <p> 第三次作业提交，位于ThirdHomework文件夹
   <p> 题号15、18、94
    <p> </p>
   <p> 第二次作业提交，位于SecondHomework文件夹
