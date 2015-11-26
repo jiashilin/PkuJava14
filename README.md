@@ -1,7 +1,8 @@
 ﻿# PkuJava14
 <html>
   <p>贾世琳 1501210924
-  
+  <p>第七次作业提交,位于SeventhHomeWork文件夹
+  <P>题号26、121、171、217、231
    <p> 第六次作业提交，位于VocabularyTable文件夹
    
   <p> 第五次作业提交，位于FifthHomeWork文件夹
