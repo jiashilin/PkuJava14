@@ -1,15 +1,5 @@
 ﻿# PkuJava14
 <html>
-<table border="1">
-  <tr>
-    <th>Month</th>
-    <th>Savings</th>
-  </tr>
-  <tr>
-    <td>January</td>
-    <td>$100</td>
-  </tr>
-</table>
   <p>贾世琳 1501210924
   <p>第八次作业，位于EighthHomeWork文件夹
   <P>题号226、235、242、283、292题
