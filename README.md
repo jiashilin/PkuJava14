@@ -1,7 +1,7 @@
 ﻿# PkuJava14
 <html>
   <p>贾世琳 1501210924
-  <table border="1" align="center">
+  <table border="1" align="center" cellspacing="5%">
   <tr>
     <th>作业</th>
     <th>位置</th>
