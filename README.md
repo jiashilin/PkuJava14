@@ -6,6 +6,10 @@
     <th>作业</th>
     <th>位置</th>
   </tr>
+   <tr>
+    <td>第九次作业，题号88 101 110 172 204题</td>
+    <td>位于NinthHomeWork文件夹</td>
+  </tr>
   <tr>
     <td>第八次作业，题号226、235、242、283、292题</td>
     <td>位于EighthHomeWork文件夹</td>
