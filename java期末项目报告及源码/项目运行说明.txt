@@ -1,0 +1,5 @@
+本项目使用MyEclipse 2014+Tomcat7.0.67+MySQL5.6搭建。
+
+导入MyEclipse时请自行配置数据库连接及Hibernate支持。
+
+数据库数据文件由于太大，如需下载，请前往http://pan.baidu.com/s/1jH1RAvk下载。
